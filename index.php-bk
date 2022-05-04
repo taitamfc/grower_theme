@@ -1,0 +1,256 @@
+<?php
+/**
+ * The template for displaying archive pages.
+ *
+ * Learn more: http://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package grower
+ */
+
+get_header(); ?>
+
+
+    <section class="main-blog">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="our-news-box wow fadeInUp">
+                        <div class="img-news-box"> <img src="images/shortcode/blog-1.jpg" alt="" class="">
+                            <div class="overlay-news"></div>
+                        </div>
+                        <div class="list-news">
+                            <p class="wrap-title-news"> Farm House </p>
+                            <a href="blog-detail.html" class="">
+                                <h3 class=""> Organic Farming Of Agriculture. </h3>
+                            </a>
+                            <p class="subtext-blog">
+                                Nullam pharetra erat dui, non pharetra nec tincidunt urna, ut sollicitudin justo. sed
+                                aliquet. In accumsan.
+                            </p>
+                            <span class="list-icon-news">
+                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> </a>
+                                <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> </a>
+                                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> </a>
+                            </span>
+                            <a href="blog-detail.html" class="icon-right-box"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i> </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="our-news-box wow fadeInUp">
+                        <div class="img-news-box"> <img src="images/shortcode/blog-2.jpg" alt="" class="">
+                            <div class="overlay-news"></div>
+                        </div>
+                        <div class="list-news">
+                            <p class="wrap-title-news"> Agriculture </p>
+                            <a href="blog-detail.html" class="">
+                                <h3 class=""> Organic Farming Of Agriculture. </h3>
+                            </a>
+                            <p class="subtext-blog">
+                                Nullam pharetra erat dui, non pharetra nec tincidunt urna, ut sollicitudin justo. sed
+                                aliquet. In accumsan.
+                            </p>
+                            <span class="list-icon-news">
+                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> </a>
+                                <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> </a>
+                                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> </a>
+                            </span>
+                            <a href="blog-detail.html" class="icon-right-box"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i> </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="our-news-box wow fadeInUp">
+                        <div class="img-news-box"> <img src="images/shortcode/blog-3.jpg" alt="" class="">
+                            <div class="overlay-news"></div>
+                        </div>
+                        <div class="list-news">
+                            <p class="wrap-title-news"> Farm House </p>
+                            <a href="blog-detail.html" class="">
+                                <h3 class=""> Organic Farming Of Agriculture. </h3>
+                            </a>
+                            <p class="subtext-blog">
+                                Nullam pharetra erat dui, non pharetra nec tincidunt urna, ut sollicitudin justo. sed
+                                aliquet. In accumsan.
+                            </p>
+                            <span class="list-icon-news">
+                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> </a>
+                                <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> </a>
+                                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> </a>
+                            </span>
+                            <a href="blog-detail.html" class="icon-right-box"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <div class="our-news-box wow fadeInUp">
+                        <div class="img-news-box"> <img src="images/shortcode/blog-4.jpg" alt="" class="">
+                            <div class="overlay-news"></div>
+                        </div>
+                        <div class="list-news">
+                            <p class="wrap-title-news">Farm House</p>
+                            <a href="blog-detail.html" class="">
+                                <h3 class=""> Organic Farming Of Agriculture. </h3>
+                            </a>
+                            <p class="subtext-blog">
+                                Nullam pharetra erat dui, non pharetra nec tincidunt urna, ut sollicitudin justo. sed
+                                aliquet. In accumsan.
+                            </p>
+                            <span class="list-icon-news">
+                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> </a>
+                                <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> </a>
+                                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> </a>
+                            </span>
+                            <a href="blog-detail.html" class="icon-right-box"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i> </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="our-news-box wow fadeInUp">
+                        <div class="img-news-box"> <img src="images/shortcode/blog-5.jpg" alt="" class="">
+                            <div class="overlay-news"></div>
+                        </div>
+                        <div class="list-news">
+                            <p class="wrap-title-news"> Agriculture </p>
+                            <a href="blog-detail.html" class="">
+                                <h3 class=""> Organic Farming Of Agriculture. </h3>
+                            </a>
+                            <p class="subtext-blog">
+                                Nullam pharetra erat dui, non pharetra nec tincidunt urna, ut sollicitudin justo. sed
+                                aliquet. In accumsan.
+                            </p>
+                            <span class="list-icon-news">
+                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> </a>
+                                <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> </a>
+                                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> </a>
+                            </span>
+                            <a href="blog-detail.html" class="icon-right-box"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i> </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="our-news-box wow fadeInUp">
+                        <div class="img-news-box"> <img src="images/shortcode/blog-6.jpg" alt="" class="">
+                            <div class="overlay-news"></div>
+                        </div>
+                        <div class="list-news">
+                            <p class="wrap-title-news"> Farm House </p>
+                            <a href="blog-detail.html" class="">
+                                <h3 class=""> Organic Farming Of Agriculture. </h3>
+                            </a>
+                            <p class="subtext-blog">
+                                Nullam pharetra erat dui, non pharetra nec tincidunt urna, ut sollicitudin justo. sed
+                                aliquet. In accumsan.
+                            </p>
+                            <span class="list-icon-news">
+                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> </a>
+                                <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> </a>
+                                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> </a>
+                            </span>
+                            <a href="blog-detail.html" class="icon-right-box"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i> </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <div class="our-news-box wow fadeInUp">
+                        <div class="img-news-box"> <img src="images/shortcode/blog-7.jpg" alt="" class="">
+                            <div class="overlay-news"></div>
+                        </div>
+                        <div class="list-news">
+                            <p class="wrap-title-news">Farm House</p>
+                            <a href="blog-detail.html" class="">
+                                <h3 class=""> Organic Farming Of Agriculture. </h3>
+                            </a>
+                            <p class="subtext-blog">
+                                Nullam pharetra erat dui, non pharetra nec tincidunt urna, ut sollicitudin justo. sed
+                                aliquet. In accumsan.
+                            </p>
+                            <span class="list-icon-news">
+                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> </a>
+                                <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> </a>
+                                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> </a>
+                            </span>
+                            <a href="blog-detail.html" class="icon-right-box"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i> </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="our-news-box wow fadeInUp">
+                        <div class="img-news-box"> <img src="images/shortcode/blog-8.jpg" alt="" class="">
+                            <div class="overlay-news"></div>
+                        </div>
+                        <div class="list-news">
+                            <p class="wrap-title-news"> Agriculture </p>
+                            <a href="blog-detail.html" class="">
+                                <h3 class=""> Organic Farming Of Agriculture. </h3>
+                            </a>
+                            <p class="subtext-blog">
+                                Nullam pharetra erat dui, non pharetra nec tincidunt urna, ut sollicitudin justo. sed
+                                aliquet. In accumsan.
+                            </p>
+                            <span class="list-icon-news">
+                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> </a>
+                                <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> </a>
+                                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> </a>
+                            </span>
+                            <a href="blog-detail.html" class="icon-right-box"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i> </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="our-news-box wow fadeInUp">
+                        <div class="img-news-box"> <img src="images/shortcode/blog-9.jpg" alt="" class="">
+                            <div class="overlay-news"></div>
+                        </div>
+                        <div class="list-news">
+                            <p class="wrap-title-news"> Farm House </p>
+                            <a href="blog-detail.html" class="">
+                                <h3 class=""> Organic Farming Of Agriculture. </h3>
+                            </a>
+                            <p class="subtext-blog">
+                                Nullam pharetra erat dui, non pharetra nec tincidunt urna, ut sollicitudin justo. sed
+                                aliquet. In accumsan.
+                            </p>
+                            <span class="list-icon-news">
+                                <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> </a>
+                                <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> </a>
+                                <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> </a>
+                            </span>
+                            <a href="blog-detail.html" class="icon-right-box"><i class="fa fa-angle-right"
+                                    aria-hidden="true"></i> </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="button-blog center">
+                <a class="gain-button button-color color2" href="blog.html">All View More +</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <?php get_footer(); ?>
