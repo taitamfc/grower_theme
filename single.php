@@ -60,11 +60,7 @@ get_header(); ?>
 						</div><!-- #primary -->
 					</div>
 					<div class="col-md-4 col-sm-4">
-						<?php 
-						if ( themesflat_get_opt( 'sidebar_layout' ) == 'sidebar-left' || themesflat_get_opt( 'sidebar_layout' ) == 'sidebar-right' ) :
-							get_sidebar();
-						endif;
-						?>
+						<?php  get_sidebar(); ?>
 					</div>
 				</div>
 			</div><!-- /.col-md-12 -->

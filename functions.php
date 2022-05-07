@@ -349,6 +349,7 @@ function themesflat_scripts()
     }
 
     wp_enqueue_style('themesflat-responsive', THEMESFLAT_LINK . 'css/responsive.css');
+    wp_enqueue_style('themesflat-custom', THEMESFLAT_LINK . 'css/custom.css');
 
     // Load the main js    
     wp_enqueue_script('themesflat-main', THEMESFLAT_LINK . 'js/main.js', array(), '2.0.4', true);
