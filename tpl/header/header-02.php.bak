@@ -109,5 +109,14 @@ if (!empty(themesflat_get_opt_elementor('site_logo'))) {
             </div>
         </div>
     </div>
-	<?php get_template_part( 'tpl/page-title'); ?>	
+	<div class="wrap-banner"> 
+		<?php                 
+			if ( themesflat_get_opt('page_title_heading_enabled') == 1 ) {
+				echo sprintf('<div class="heading-title-page">%s</div>', $title); 
+			}  
+		?>
+		<?php if ( themesflat_get_opt( 'breadcrumb_enabled' ) == 1 ): ?>
+		<?php themesflat_breadcrumb();?>
+		<?php endif;?>
+	</div>
 </header><!-- /header -->

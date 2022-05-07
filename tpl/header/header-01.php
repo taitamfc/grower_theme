@@ -111,6 +111,8 @@ if (!empty(themesflat_get_opt_elementor('site_logo'))) {
                 </div>
 
             </div>
+			
+			<?php get_template_part( 'tpl/page-title'); ?>	
         </div>
     </div>
 </header><!-- /header -->
