@@ -367,7 +367,23 @@
             $('.parallax3').parallax("50%", 0.5);            
         }
     };
+   
     var flatSlider = function() {
+        console.log('flatSlider');
+        $('.flex-control-nav').owlCarousel({
+            responsive: {
+                0:{
+                    items:2
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:4
+                }
+            }
+        });
+
         if ( $().owlCarousel ) {
             $('.themesflat-slider').each(function(){
                 var
@@ -480,6 +496,8 @@
         parallax();
         removePreloader();
         blogLoadMore();
+
+        $('.flex-control-thumbs').addClass('owl-carousel');
    	});
 
 })(jQuery);

@@ -200,7 +200,7 @@ class TFServices_Widget extends \Elementor\Widget_Base {
 					$terms = get_the_terms( get_the_ID(), 'services_category' );
 					$term = ( $terms ) ? end($terms) : '';
 				?>
-					<div class="item">
+					<div class="col-md-3 col-sm-6">
 						<?php if ($settings['style'] == 'style1') : ?>
 							<div class="box-service wow fadeInUp" >
 								<?php if ( has_post_thumbnail() ): ?>

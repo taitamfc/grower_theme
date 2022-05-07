@@ -339,6 +339,7 @@ function themesflat_scripts()
     wp_enqueue_script('parallax', THEMESFLAT_LINK . 'js/parallax.js', array('jquery'), '2.6.0', true);
     wp_enqueue_script('wow', THEMESFLAT_LINK . 'js/wow.min.js', array('jquery'), '2.6.0', true);
     wp_enqueue_script('animation', THEMESFLAT_LINK . 'js/animation.js', array('jquery'), '2.6.0', true);
+    wp_enqueue_script('owl-carousel', THEMESFLAT_LINK . 'js/owl.carousel.js', array('jquery'), '2.6.0', true);
 
     if (themesflat_get_opt('enable_smooth_scroll') == 1) {
         wp_enqueue_script('smoothscroll', THEMESFLAT_LINK . 'js/smoothscroll.js', array(), '1.2.1', true);

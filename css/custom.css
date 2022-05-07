@@ -1,3 +1,36 @@
+.row {
+	--bs-gutter-x: 1.5rem;
+	--bs-gutter-y: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: calc(var(--bs-gutter-y) * -1);
+	margin-right: calc(var(--bs-gutter-x) * -.5);
+	margin-left: calc(var(--bs-gutter-x) * -.5);
+}
 .blog-single .featured-post img {
 	width: 100% !important;
+}
+.wrap-services-post.column-3 .item, .wrap-portfolios-post.column-3 .item, .wrap-project-post.column-3 .item, .wrap-doctor-post.column-3 .item, .tf-posts.column-3 .item, .blog-three-columns .item {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 33.33%;
+	flex: 0 0 33.33%;
+	max-width: 33.33%;
+}
+.wrap-services-post .item, .wrap-portfolios-post .item, .wrap-project-post .item, .wrap-doctor-post .item, .tf-posts .item, .blog-two-columns .item {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+	max-width: 50%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.wrap-services-post.column-4 .item, .wrap-portfolios-post.column-4 .item, .wrap-project-post.column-4 .item, .wrap-doctor-post.column-4 .item, .tf-posts.column-4 .item, .blog-four-columns .item {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 25%;
+	flex: 0 0 25%;
+	max-width: 25%;
+}
+.flex-control-thumbs li {
+	width: unset !important;
+	float: unset !important;
 }

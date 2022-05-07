@@ -4,7 +4,7 @@ $featured_image = sprintf('<img src="%s" alt="image">', \Elementor\Group_Control
 $terms = get_the_terms(get_the_ID(), 'category');
 
 ?>
-<div class="item our-news-box style-2 wow fadeInUp"> <?php if ($settings['show_image'] == 'yes') : ?>
+<div class="our-news-box style-2 wow fadeInUp"> <?php if ($settings['show_image'] == 'yes') : ?>
         <div class="img-news-box"> <?php echo sprintf('%s', $featured_image); ?>
             <div class="overlay-news"></div>
         </div>

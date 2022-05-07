@@ -1847,7 +1847,7 @@ class TFPosts_Widget extends \Elementor\Widget_Base {
 				<?php if ( $settings['carousel'] == 'yes' ): ?>
 				<div class="owl-carousel">
 				<?php else: ?>
-				
+				<div class="row">
 				<?php endif; ?>
 					<?php while ( $query->have_posts() ) : $query->the_post();						
 						$attr['settings'] = $settings; 
@@ -1855,7 +1855,7 @@ class TFPosts_Widget extends \Elementor\Widget_Base {
 						?>					
 					<?php endwhile; ?>
 				<?php if ( $settings['carousel'] == 'yes' ): ?>
-			
+				</div>
 				<?php else: ?>
 				</div>
 				<?php endif; ?>
