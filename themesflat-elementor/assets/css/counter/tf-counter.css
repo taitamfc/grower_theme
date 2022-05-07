@@ -1,0 +1,121 @@
+.tf-counter {
+	position: relative;
+}
+
+.tf-counter .counter-icon {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tf-counter.style2 .wrap-icon-title {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tf-counter .counter-icon {
+	-webkit-transition: all 1s ease 0s;
+	-moz-transition: all 1s ease 0s;
+	-ms-transition: all 1s ease 0s;
+	-o-transition: all 1s ease 0s;
+	transition: all 1s ease 0s;
+}
+
+.tf-counter:hover .counter-icon {
+	-webkit-transform: rotateY(360deg);
+	transform: rotateY(360deg);
+}
+
+.tf-counter.style3 .wrap-counter {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tf-counter.style4 .wrap-number-title {
+	display: flex;
+	align-items: center;
+}
+.counter-number-suffix,
+span.counter-number {
+	color: #297d53;
+	font-size: 72px;
+	line-height: 60px;
+	font-family: "Sue Ellen Francisco", sans-serif;
+	font-weight: 500;
+}
+.counter-title {
+	margin: 18px 0 0px 0;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 24px;
+}
+.counter-title span {
+	color: black;
+}
+
+/* news */
+
+.tf_counter-item {
+	width: 150px;
+	height: 150px;
+	background-color: #f5f6f5;
+	border-radius: 50%;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	margin: 10px;
+}
+.tf_counter-item > span {
+	color: #7a7;
+}
+.tf_counter-item > span.text,
+.tf_counter-item > span ~ b {
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	margin-top: -8px;
+	z-index: 1;
+}
+.tf_counter-item > span.text ~ b,
+.tf_counter-item > span ~ b ~ b {
+	font-weight: normal;
+	margin-top: 8px;
+}
+.tf_counter-item > span.bar-circle-right,
+.tf_counter-item > span.bar-circle-left {
+	border-radius: 50%;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #b0dab9;
+	clip: rect(0, 75px, 150px, 0);
+}
+.tf_counter-item > span.bar-circle-left {
+	background: #f5f6f5;
+}
+.tf_counter-item > span.bar-circle-cover {
+	display: block;
+	width: 95%;
+	height: 95%;
+	border-radius: 50%;
+	background-color: #fff;
+	z-index: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+span.counter-number {
+	width: 100%;
+	font-size: 48px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: auto;
+}
