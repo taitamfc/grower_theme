@@ -10,11 +10,11 @@ $themesflat_thumbnail = 'themesflat-blog';
 	<?php get_template_part( 'tpl/feature-post-single'); ?>
 	<!-- end feature-post single-->
 	<?php if ( themesflat_get_opt('blog_featured_title') != '' ): ?>
+	<h1 class="entry-title"><?= themesflat_get_opt('blog_featured_title'); ?></h1>
+	<?php else: ?>
 	<h1 class="entry-title"><?php the_title(); ?></h1>
-	<div class="heading-post">	
-		<h1 class="post-title"><?php the_title(); ?></h2>							
-	</div>
 	<?php endif; ?>
+	<?php themesflat_render_social(); ?>		
 	<div class="main-post">		
 		<div class="entry-content clearfix">
 			<div class="entry-content-wrap">
@@ -29,8 +29,10 @@ $themesflat_thumbnail = 'themesflat-blog';
 				) );
 				?>
 		</div><!-- .entry-content -->
+		
 		<?php if( themesflat_get_opt('show_entry_footer_content') == 1 ): ?>		
 			<?php themesflat_entry_footer(); ?>
 		<?php endif; ?>
+		<?= do_shortcode('[SHORTCODE_ELEMENTOR id="1152"]');?>
 	</div><!-- /.main-post -->
 </article>	

@@ -14,6 +14,7 @@ $themesflat_thumbnail = 'themesflat-blog';
 	<?php else: ?>
 	<h1 class="entry-title"><?php the_title(); ?></h1>
 	<?php endif; ?>
+	<?php themesflat_render_social(); ?>		
 	<div class="main-post">		
 		<div class="entry-content clearfix">
 			<div class="entry-content-wrap">
@@ -28,8 +29,10 @@ $themesflat_thumbnail = 'themesflat-blog';
 				) );
 				?>
 		</div><!-- .entry-content -->
+		
 		<?php if( themesflat_get_opt('show_entry_footer_content') == 1 ): ?>		
 			<?php themesflat_entry_footer(); ?>
 		<?php endif; ?>
+		
 	</div><!-- /.main-post -->
 </article>	

@@ -82,28 +82,6 @@
 	position: relative;
 }
 
-.testimonials-box-style .slider-testi img {
-	margin-bottom: 48px;
-}
-.testimonials-box-style .title-testimonials {
-	padding-bottom: 20px;
-	margin: 0 200px 10px 200px;
-	border-bottom: 1px solid #e6d54f;
-	color: #fff;
-}
-.testimonials-box-style .title-designer-01 {
-	line-height: 32px;
-	font-size: 16px;
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #e6d54f;
-}
-.testimonials-box-style .title-designer-02 {
-	line-height: 32px;
-	font-size: 14px;
-	font-weight: 500;
-	color: #ffffff;
-}
 /* button next,prev slider */
 .owl-nav {
 	position: absolute;

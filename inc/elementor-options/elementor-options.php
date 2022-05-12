@@ -551,180 +551,180 @@ class themesflat_options_elementor {
             ]
         );
 
-        $element->add_control(
-            'h_footer_action_box',
-            [
-                'label' => esc_html__( 'Action Box', 'grower' ),
-                'type' => Controls_Manager::HEADING,
-                'separator' => 'before',
-            ]
-        );
+        // $element->add_control(
+            // 'h_footer_action_box',
+            // [
+                // 'label' => esc_html__( 'Action Box', 'grower' ),
+                // 'type' => Controls_Manager::HEADING,
+                // 'separator' => 'before',
+            // ]
+        // );
 
-        $element->add_control(
-            'show_action_box',
-            [
-                'label'     => esc_html__( 'Footer Action Box', 'grower'),
-                'type'      => Controls_Manager::SELECT,
-                'default'   => '',
-                'options'   => [
-                    '' => esc_html__( 'Theme Setting', 'grower'),
-                    1 => esc_html__( 'Show', 'grower' ),
-                    0 => esc_html__( 'Hide', 'grower' ),
-                ],
-                'condition' => [ 'hide_footer' => 'block' ]
-            ]
-        );
-        $element->add_control(
-            'action_box_style',
-            [
-                'label'     => esc_html__( 'Action Box Styles', 'grower'),
-                'type'      => Controls_Manager::SELECT,
-                'default'   => '',
-                'options'   => [
-                    '' => esc_html__( 'Theme Setting', 'grower'),
-                    'style1' => esc_html__( 'Style 1', 'grower' ),
-                    'style2' => esc_html__( 'Style 2', 'grower' ),
-                ],
-                'condition' => [ 'hide_footer' => 'block' ]
-            ]
-        );
-        $element->add_control(
-            'action_box_background_color',
-            [
-                'label' => esc_html__( 'Backgound Color', 'grower' ),
-                'type' => Controls_Manager::COLOR,
-                'selectors' => [
-                    '{{WRAPPER}} .themesflat-action-box .overlay' => 'background-color: {{VALUE}}',
-                ],
-                'condition' => [ 'hide_footer' => 'block' ]
-            ]
-        );
-        $element->add_control(
-            'action_box_heading_color',
-            [
-                'label' => esc_html__( 'Heading Color', 'grower' ),
-                'type' => Controls_Manager::COLOR,
-                'selectors' => [
-                    '{{WRAPPER}} .themesflat-action-box .heading, {{WRAPPER}} .themesflat-action-box h2, {{WRAPPER}} .themesflat-action-box h3, {{WRAPPER}} .themesflat-action-box h4, {{WRAPPER}} .themesflat-action-box h5, {{WRAPPER}} .themesflat-action-box h6' => 'color: {{VALUE}}',
-                ],
-                'condition' => [ 'hide_footer' => 'block' ]
-            ]
-        );
-        $element->add_control(
-            'action_box_text_color',
-            [
-                'label' => esc_html__( 'Text Color', 'grower' ),
-                'type' => Controls_Manager::COLOR,
-                'selectors' => [
-                    '{{WRAPPER}} .themesflat-action-box, {{WRAPPER}} .themesflat-action-box p' => 'color: {{VALUE}}',
-                    '{{WRAPPER}} .themesflat-action-box.style1 .mc4wp-form input:-moz-placeholder, {{WRAPPER}} .themesflat-action-box.style1 .mc4wp-form input::-moz-placeholder' => 'color: {{VALUE}}',
-                    '{{WRAPPER}} .themesflat-action-box.style1 .mc4wp-form input:-ms-input-placeholder' => 'color: {{VALUE}}',
-                    '{{WRAPPER}} .themesflat-action-box.style1 .mc4wp-form input::-webkit-input-placeholder' => 'color: {{VALUE}}',
-                    '{{WRAPPER}} .themesflat-action-box.style1 .mc4wp-form input' => 'color: {{VALUE}}',
-                ],
-                'condition' => [ 'hide_footer' => 'block' ]
-            ]
-        );
-        $element->add_control(
-            'action_box_button_text_color',
-            [
-                'label' => esc_html__( 'Button Text Color', 'grower' ),
-                'type' => Controls_Manager::COLOR,
-                'selectors' => [
-                    '{{WRAPPER}} .themesflat-action-box .mc4wp-form input[type="submit"], {{WRAPPER}} .themesflat-action-box.style1 .mc4wp-form input[type="submit"], {{WRAPPER}} .themesflat-action-box.style2 .mc4wp-form input[type="submit"]' => 'color: {{VALUE}}',
-                ],
-                'condition' => [ 'hide_footer' => 'block' ]
-            ]
-        );
-        $element->add_control(
-            'action_box_button_background_color',
-            [
-                'label' => esc_html__( 'Button Background Color', 'grower' ),
-                'type' => Controls_Manager::COLOR,
-                'selectors' => [
-                    '{{WRAPPER}} .themesflat-action-box .mc4wp-form input[type="submit"], {{WRAPPER}} .themesflat-action-box.style1 .mc4wp-form input[type="submit"], {{WRAPPER}} .themesflat-action-box.style2 .mc4wp-form input[type="submit"]' => 'background-color: {{VALUE}}',
-                ],
-                'condition' => [ 'hide_footer' => 'block' ]
-            ]
-        );
-        $element->add_control(
-            'action_box_button_text_color_hover',
-            [
-                'label' => esc_html__( 'Button Text Hover Color', 'grower' ),
-                'type' => Controls_Manager::COLOR,
-                'selectors' => [
-                    '{{WRAPPER}} .themesflat-action-box .mc4wp-form input[type="submit"]:hover, {{WRAPPER}} .themesflat-action-box.style1 .mc4wp-form input[type="submit"]:hover, {{WRAPPER}} .themesflat-action-box.style2 .mc4wp-form input[type="submit"]:hover' => 'color: {{VALUE}}',
-                ],
-                'condition' => [ 'hide_footer' => 'block' ]
-            ]
-        );
-        $element->add_control(
-            'action_box_button_background_color_hover',
-            [
-                'label' => esc_html__( 'Button Hover Background Color', 'grower' ),
-                'type' => Controls_Manager::COLOR,
-                'selectors' => [
-                    '{{WRAPPER}} .themesflat-action-box .mc4wp-form input[type="submit"]:hover, {{WRAPPER}} .themesflat-action-box.style1 .mc4wp-form input[type="submit"]:hover, {{WRAPPER}} .themesflat-action-box.style2 .mc4wp-form input[type="submit"]:hover' => 'background-color: {{VALUE}}',
-                ],
-                'condition' => [ 'hide_footer' => 'block' ]
-            ]
-        );
+        // $element->add_control(
+            // 'show_action_box',
+            // [
+                // 'label'     => esc_html__( 'Footer Action Box', 'grower'),
+                // 'type'      => Controls_Manager::SELECT,
+                // 'default'   => '',
+                // 'options'   => [
+                    // '' => esc_html__( 'Theme Setting', 'grower'),
+                    // 1 => esc_html__( 'Show', 'grower' ),
+                    // 0 => esc_html__( 'Hide', 'grower' ),
+                // ],
+                // 'condition' => [ 'hide_footer' => 'block' ]
+            // ]
+        // );
+        // $element->add_control(
+            // 'action_box_style',
+            // [
+                // 'label'     => esc_html__( 'Action Box Styles', 'grower'),
+                // 'type'      => Controls_Manager::SELECT,
+                // 'default'   => '',
+                // 'options'   => [
+                    // '' => esc_html__( 'Theme Setting', 'grower'),
+                    // 'style1' => esc_html__( 'Style 1', 'grower' ),
+                    // 'style2' => esc_html__( 'Style 2', 'grower' ),
+                // ],
+                // 'condition' => [ 'hide_footer' => 'block' ]
+            // ]
+        // );
+        // $element->add_control(
+            // 'action_box_background_color',
+            // [
+                // 'label' => esc_html__( 'Backgound Color', 'grower' ),
+                // 'type' => Controls_Manager::COLOR,
+                // 'selectors' => [
+                    // '{{WRAPPER}} .themesflat-action-box .overlay' => 'background-color: {{VALUE}}',
+                // ],
+                // 'condition' => [ 'hide_footer' => 'block' ]
+            // ]
+        // );
+        // $element->add_control(
+            // 'action_box_heading_color',
+            // [
+                // 'label' => esc_html__( 'Heading Color', 'grower' ),
+                // 'type' => Controls_Manager::COLOR,
+                // 'selectors' => [
+                    // '{{WRAPPER}} .themesflat-action-box .heading, {{WRAPPER}} .themesflat-action-box h2, {{WRAPPER}} .themesflat-action-box h3, {{WRAPPER}} .themesflat-action-box h4, {{WRAPPER}} .themesflat-action-box h5, {{WRAPPER}} .themesflat-action-box h6' => 'color: {{VALUE}}',
+                // ],
+                // 'condition' => [ 'hide_footer' => 'block' ]
+            // ]
+        // );
+        // $element->add_control(
+            // 'action_box_text_color',
+            // [
+                // 'label' => esc_html__( 'Text Color', 'grower' ),
+                // 'type' => Controls_Manager::COLOR,
+                // 'selectors' => [
+                    // '{{WRAPPER}} .themesflat-action-box, {{WRAPPER}} .themesflat-action-box p' => 'color: {{VALUE}}',
+                    // '{{WRAPPER}} .themesflat-action-box.style1 .mc4wp-form input:-moz-placeholder, {{WRAPPER}} .themesflat-action-box.style1 .mc4wp-form input::-moz-placeholder' => 'color: {{VALUE}}',
+                    // '{{WRAPPER}} .themesflat-action-box.style1 .mc4wp-form input:-ms-input-placeholder' => 'color: {{VALUE}}',
+                    // '{{WRAPPER}} .themesflat-action-box.style1 .mc4wp-form input::-webkit-input-placeholder' => 'color: {{VALUE}}',
+                    // '{{WRAPPER}} .themesflat-action-box.style1 .mc4wp-form input' => 'color: {{VALUE}}',
+                // ],
+                // 'condition' => [ 'hide_footer' => 'block' ]
+            // ]
+        // );
+        // $element->add_control(
+            // 'action_box_button_text_color',
+            // [
+                // 'label' => esc_html__( 'Button Text Color', 'grower' ),
+                // 'type' => Controls_Manager::COLOR,
+                // 'selectors' => [
+                    // '{{WRAPPER}} .themesflat-action-box .mc4wp-form input[type="submit"], {{WRAPPER}} .themesflat-action-box.style1 .mc4wp-form input[type="submit"], {{WRAPPER}} .themesflat-action-box.style2 .mc4wp-form input[type="submit"]' => 'color: {{VALUE}}',
+                // ],
+                // 'condition' => [ 'hide_footer' => 'block' ]
+            // ]
+        // );
+        // $element->add_control(
+            // 'action_box_button_background_color',
+            // [
+                // 'label' => esc_html__( 'Button Background Color', 'grower' ),
+                // 'type' => Controls_Manager::COLOR,
+                // 'selectors' => [
+                    // '{{WRAPPER}} .themesflat-action-box .mc4wp-form input[type="submit"], {{WRAPPER}} .themesflat-action-box.style1 .mc4wp-form input[type="submit"], {{WRAPPER}} .themesflat-action-box.style2 .mc4wp-form input[type="submit"]' => 'background-color: {{VALUE}}',
+                // ],
+                // 'condition' => [ 'hide_footer' => 'block' ]
+            // ]
+        // );
+        // $element->add_control(
+            // 'action_box_button_text_color_hover',
+            // [
+                // 'label' => esc_html__( 'Button Text Hover Color', 'grower' ),
+                // 'type' => Controls_Manager::COLOR,
+                // 'selectors' => [
+                    // '{{WRAPPER}} .themesflat-action-box .mc4wp-form input[type="submit"]:hover, {{WRAPPER}} .themesflat-action-box.style1 .mc4wp-form input[type="submit"]:hover, {{WRAPPER}} .themesflat-action-box.style2 .mc4wp-form input[type="submit"]:hover' => 'color: {{VALUE}}',
+                // ],
+                // 'condition' => [ 'hide_footer' => 'block' ]
+            // ]
+        // );
+        // $element->add_control(
+            // 'action_box_button_background_color_hover',
+            // [
+                // 'label' => esc_html__( 'Button Hover Background Color', 'grower' ),
+                // 'type' => Controls_Manager::COLOR,
+                // 'selectors' => [
+                    // '{{WRAPPER}} .themesflat-action-box .mc4wp-form input[type="submit"]:hover, {{WRAPPER}} .themesflat-action-box.style1 .mc4wp-form input[type="submit"]:hover, {{WRAPPER}} .themesflat-action-box.style2 .mc4wp-form input[type="submit"]:hover' => 'background-color: {{VALUE}}',
+                // ],
+                // 'condition' => [ 'hide_footer' => 'block' ]
+            // ]
+        // );
 
-        $element->add_control(
-            'h_footer_info',
-            [
-                'label' => esc_html__( 'Footer Info', 'grower' ),
-                'type' => Controls_Manager::HEADING,
-                'separator' => 'before',
-            ]
-        );
-        $element->add_control(
-            'show_footer_info',
-            [
-                'label'     => esc_html__( 'Footer Info', 'grower'),
-                'type'      => Controls_Manager::SELECT,
-                'default'   => '',
-                'options'   => [
-                    '' => esc_html__( 'Theme Setting', 'grower'),
-                    1 => esc_html__( 'Show', 'grower' ),
-                    0 => esc_html__( 'Hide', 'grower' ),
-                ],
-                'condition' => [ 'hide_footer' => 'block' ]
-            ]
-        );
-        $element->add_control(
-            'footer_info_background',
-            [
-                'label' => esc_html__( 'Backgound Color', 'grower' ),
-                'type' => Controls_Manager::COLOR,
-                'selectors' => [
-                    '{{WRAPPER}} .info-footer .wrap-info-item' => 'background-color: {{VALUE}}',
-                ],
-                'condition' => [ 'hide_footer' => 'block' ]
-            ]
-        );
-        $element->add_control(
-            'footer_info_color_icon',
-            [
-                'label' => esc_html__( 'Icon Color', 'grower' ),
-                'type' => Controls_Manager::COLOR,
-                'selectors' => [
-                    '{{WRAPPER}} .info-footer .wrap-info .icon-info, {{WRAPPER}} .info-footer .wrap-info .icon-info svg' => 'color: {{VALUE}}',
-                ],
-                'condition' => [ 'hide_footer' => 'block' ]
-            ]
-        );
-        $element->add_control(
-            'footer_info_color_text',
-            [
-                'label' => esc_html__( 'Text Color', 'grower' ),
-                'type' => Controls_Manager::COLOR,
-                'selectors' => [
-                    '{{WRAPPER}} .info-footer .wrap-info .content' => 'color: {{VALUE}}',
-                ],
-                'condition' => [ 'hide_footer' => 'block' ]
-            ]
-        );
+        // $element->add_control(
+            // 'h_footer_info',
+            // [
+                // 'label' => esc_html__( 'Footer Info', 'grower' ),
+                // 'type' => Controls_Manager::HEADING,
+                // 'separator' => 'before',
+            // ]
+        // );
+        // $element->add_control(
+            // 'show_footer_info',
+            // [
+                // 'label'     => esc_html__( 'Footer Info', 'grower'),
+                // 'type'      => Controls_Manager::SELECT,
+                // 'default'   => '',
+                // 'options'   => [
+                    // '' => esc_html__( 'Theme Setting', 'grower'),
+                    // 1 => esc_html__( 'Show', 'grower' ),
+                    // 0 => esc_html__( 'Hide', 'grower' ),
+                // ],
+                // 'condition' => [ 'hide_footer' => 'block' ]
+            // ]
+        // );
+        // $element->add_control(
+            // 'footer_info_background',
+            // [
+                // 'label' => esc_html__( 'Backgound Color', 'grower' ),
+                // 'type' => Controls_Manager::COLOR,
+                // 'selectors' => [
+                    // '{{WRAPPER}} .info-footer .wrap-info-item' => 'background-color: {{VALUE}}',
+                // ],
+                // 'condition' => [ 'hide_footer' => 'block' ]
+            // ]
+        // );
+        // $element->add_control(
+            // 'footer_info_color_icon',
+            // [
+                // 'label' => esc_html__( 'Icon Color', 'grower' ),
+                // 'type' => Controls_Manager::COLOR,
+                // 'selectors' => [
+                    // '{{WRAPPER}} .info-footer .wrap-info .icon-info, {{WRAPPER}} .info-footer .wrap-info .icon-info svg' => 'color: {{VALUE}}',
+                // ],
+                // 'condition' => [ 'hide_footer' => 'block' ]
+            // ]
+        // );
+        // $element->add_control(
+            // 'footer_info_color_text',
+            // [
+                // 'label' => esc_html__( 'Text Color', 'grower' ),
+                // 'type' => Controls_Manager::COLOR,
+                // 'selectors' => [
+                    // '{{WRAPPER}} .info-footer .wrap-info .content' => 'color: {{VALUE}}',
+                // ],
+                // 'condition' => [ 'hide_footer' => 'block' ]
+            // ]
+        // );
 
         // Bottom
         $element->add_control(

@@ -37,7 +37,7 @@ get_header(); ?>
 													<div class="name">
 														<h6><?php the_author_posts_link(); ?></h6>		        
 													</div>	
-													<?php themesflat_render_social(); ?>		
+													
 													<p class="intro">
 														<?php 
 														echo get_the_author_meta( 'description' );
@@ -56,6 +56,9 @@ get_header(); ?>
 								?>
 								</div><!-- /.main-single -->		
 							<?php endwhile; // end of the loop. ?>
+							
+							<?= do_shortcode('[SHORTCODE_ELEMENTOR id="1152"]');?>
+							
 							</main><!-- #main -->
 						</div><!-- #primary -->
 					</div>

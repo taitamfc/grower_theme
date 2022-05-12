@@ -34,3 +34,9 @@
 	width: unset !important;
 	float: unset !important;
 }
+.tf-footer ul li a {
+	font-family: 'Sue Ellen Francisco', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: rgb(255, 238, 0) !important;
+}

@@ -1126,6 +1126,8 @@ function themesflat_get_page_titles() {
             $title = esc_html__('Book Appointment','grower');           
         } elseif ( is_tax() || is_category() || is_tag() ) {
             $title = single_term_title( '', false );
+        } elseif ( is_shop ) {
+            $title = woocommerce_page_title(false);
         } else {
             $title = esc_html( wp_title('',FALSE) );
         }
